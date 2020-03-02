@@ -1,0 +1,50 @@
+{
+  "inbounds": [
+   {
+      "port": 1099,
+      "protocol": "dokodemo-door",
+      "settings": {
+        "network": "tcp,udp",
+        "followRedirect": true
+      },
+      "sniffing": {
+        "enabled": true,
+        "destOverride": ["http", "tls"]
+      }
+   }
+  ],
+  "log": {
+    "loglevel": "none"
+  },
+  "outbounds": [
+    {
+      "mux": {"enabled": false},
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "IP",
+            "port": PORT,
+            "users": [
+              {
+                "alterId": 1,
+                "id": "UUID",
+                "security": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wssettings": {
+          "connectionReuse": true,
+          "headers": {
+            "Host": "domain"
+          },
+          "path": "PATH"
+        }
+      }
+    }
+  ]
+}

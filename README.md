@@ -1,1 +1,16 @@
-# v2ray_running_in_android-root-
+# v2ray_running_in_android_root
+
+android 系统的手机，如果具备ROOT环境（仅有adb shell 的 root权限 也可），便可使用此项目。
+
+实现的效果为Android手机本身流量通过本地运行的v2ray进行分流代理（不区分数据流量或者WIFI流量）。
+
+以及此Android手机分享出来的热点也具备科学上网能力。
+
+使用方法：
+
+1、本项目全部文件下载到手机的 /sdcard/Download/ 目录内。
+
+应该包含的文件为 config.json.simple， return_ip-cn.sh， start_v2ray_and_iptables.sh， v2ray-linux-arm64.zip， v2ray-linux-arm64(文件夹)。
+
+2、使用本机终端，或者adb shell，切到root权限后，执行 sh start_v2ray_and_iptables.sh
+

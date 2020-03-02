@@ -61,6 +61,7 @@ while read VPSIP;do
 done
 
 # 直连 国IP段
+echo "adding china ip rules please wait for minitus...."
 sh ${FILES_PATH}/return_ip-cn.sh
 
 # V2ray 发出的流量 直连 (android seam to not support that....)

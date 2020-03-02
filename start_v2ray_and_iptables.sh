@@ -59,14 +59,6 @@ grep address ${FILES_PATH}/${CONFIG_FILE} | awk -F \" '{print $(NF-1)}' | \
 while read VPSIP;do
     iptables -t nat -A V2RAY -d ${VPSIP} -j RETURN;
 done
-iptables -t nat -A V2RAY -d 182.92.64.238/32 -j RETURN
-iptables -t nat -A V2RAY -d 223.203.201.234/32 -j RETURN
-iptables -t nat -A V2RAY -d 1.0.0.0/24 -j RETURN
-iptables -t nat -A V2RAY -d 34.92.164.144/32 -j RETURN
-iptables -t nat -A V2RAY -d 140.238.2.172/32 -j RETURN
-iptables -t nat -A V2RAY -d 132.145.95.214/32 -j RETURN
-iptables -t nat -A V2RAY -d 207.226.219.15/32 -j RETURN
-iptables -t nat -A V2RAY -d 38.106.231.147/32 -j RETURN
 
 # 直连 国IP段
 sh ${FILES_PATH}/return_ip-cn.sh

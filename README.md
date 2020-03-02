@@ -16,5 +16,4 @@ android 系统的手机，如果具备ROOT环境（仅有adb shell 的 root权�
 
 
 PS: 
-
 config.json.simple 是你的v2ray配置文件， 文件内的 outbound 根据你自己的v2ray配置进行修改（本项目使用的v2ray的ws模式，未配置tls，请注意）。

@@ -38,7 +38,7 @@ fi
 chmod -R +x ${DIR_PATH}
 
 ############################################
-echo "run V2RAY...."
+echo "RUN V2RAY...."
 nohup ${DIR_PATH}/v2ray -config ${FILES_PATH}/${CONFIG_FILE} > /dev/null 2>&1 &
 if [[ $? -ne 0 ]];then
     echo "run V2RAY failed. now quit...."

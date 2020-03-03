@@ -12,6 +12,21 @@ if [ ! -f ${FILES_PATH}/return_ip-cn.sh ];then
     echo "${FILES_PATH}/return_ip-cn.sh not exist. WARNING!!!...."
 fi
 
+if [ -n "${PID}" ];then
+    echo "V2RAY is running, then kill it...."
+    kill -9 ${PID}
+    sleep 2
+fi
+
+if [[ $(iptables-save | grep V2RAY | wc -l) -ne 0 ]];then
+    echo "found iptables for V2RAY. now clean rules...."
+    iptables -t nat -D PREROUTING -p tcp -j V2RAY
+    iptables -t nat -D OUTPUT -p tcp -j V2RAY
+    iptables -t nat -F V2RAY
+    iptables -t nat -X V2RAY
+fi
+
+############################################
 echo "prepareing V2RAY package to ${DIR_PATH}...."
 mkdir -p ${DIR_PATH}
 unzip ${FILES_PATH}/v2ray-linux-arm64.zip -o -d ${DIR_PATH}/ || \
@@ -22,21 +37,8 @@ if [[ $? -ne 0 ]];then
 fi
 chmod -R +x ${DIR_PATH}
 
-if [ -n "${PID}" ];then
-    echo "V2RAY is running, then kill it...."
-    kill -9 ${PID}
-    sleep 2
-fi
-
 nohup ${DIR_PATH}/v2ray -config ${FILES_PATH}/${CONFIG_FILE} > /dev/null 2>&1 &
 
-if [[ $(iptables-save | grep V2RAY | wc -l) -ne 0 ]];then
-    echo "found iptables for V2RAY. now clean rules...."
-    iptables -t nat -D PREROUTING -p tcp -j V2RAY
-    iptables -t nat -D OUTPUT -p tcp -j V2RAY
-    iptables -t nat -F V2RAY
-    iptables -t nat -X V2RAY
-fi
 
 ############################################
 echo "add iptables for V2RAY rules...."

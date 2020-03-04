@@ -20,7 +20,12 @@ android 系统的手机，如果具备ROOT环境（仅有adb shell 的 root权�
 2、使用本机终端，或者adb shell，切到root权限后，执行 sh /sdcard/Download/start_v2ray_and_iptables.sh
 
 
+3、如果想不重启手机清理v2ray进以及恢复iptables规则， 运行 sh /sdcard/Download/clean_v2ray_and_iptables.sh 即可。
+
+
+
+
 PS:   
-config.json.simple 是你的v2ray配置文件， 文件内的 outbound 根据你自己的v2ray配置进行修改（本项目使用的v2ray的ws模式，未配置tls，请注意）。
+config.json.simple 是你的v2ray配置文件， 文件内的 outbound 根据你自己的v2ray配置进行修改（本项目使用的v2ray的tls+ws模式，根据文件内提示修改）。
 
 脚本执行因为需要添加chinaip段，所以跑完大概需要5分钟，不要着急。等它自己跑完。看到finished算是成功，否则请查看脚本提示的报错信息。

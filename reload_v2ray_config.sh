@@ -16,6 +16,12 @@ else
     echo "V2RAY is Not Running, Try To Start It...."
 fi
 
+grep address ${FILES_PATH}/${CONFIG_FILE} | awk -F \" '{print $(NF-1)}' | \
+while read VPSIP;do
+    iptables -t nat -D V2RAY -d ${VPSIP} -j RETURN
+    iptables -t nat -I V2RAY -d ${VPSIP} -j RETURN
+done
+
 ############################################
 echo "RUN V2RAY...."
 nohup ${DIR_PATH}/v2ray -config ${FILES_PATH}/${CONFIG_FILE} > /dev/null 2>&1 &

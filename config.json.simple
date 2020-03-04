@@ -29,7 +29,7 @@
               {
                 "alterId": 1,
                 "id": "填你自己v2ray的UUID",
-                "security": "none"
+                "security": "auto"
               }
             ]
           }

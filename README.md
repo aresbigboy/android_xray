@@ -27,7 +27,9 @@ android 系统的手机，如果具备ROOT环境（仅有adb shell 的 root权�
 2、使用本机终端，或者adb shell，切到root权限后，执行 sh /sdcard/Download/start_v2ray_and_iptables.sh
 
 
-3、如果想不重启手机清理v2ray进以及恢复iptables规则， 运行 sh /sdcard/Download/clean_v2ray_and_iptables.sh 即
+3、如果想不重启手机清理v2ray进以及恢复iptables规则， 运行 sh /sdcard/Download/clean_v2ray_and_iptables.sh 即可。
+
+4、如果修改了 /sdcard/Download/config.json.simple 这个配置文件后，想快速重启v2ray， 运行 sh /sdcard/Download/reload_v2ray_config.sh 即可。
 
 ######################################################################################
 

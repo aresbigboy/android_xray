@@ -65,7 +65,7 @@ iptables -t nat -A V2RAY -d 240.0.0.0/4 -j RETURN
 # 直连 VPS IP
 grep address ${FILES_PATH}/${CONFIG_FILE} | awk -F \" '{print $(NF-1)}' | \
 while read VPSIP;do
-    iptables -t nat -A V2RAY -d ${VPSIP} -j RETURN;
+    iptables -t nat -I V2RAY -d ${VPSIP} -j RETURN;
 done
 
 # 直连 国IP段

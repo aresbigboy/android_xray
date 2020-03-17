@@ -41,8 +41,8 @@ chmod -R +x ${DIR_PATH}
 echo "RUN V2RAY...."
 nohup ${DIR_PATH}/v2ray -config=${FILES_PATH}/${CONFIG_FILE} > /dev/null 2>&1 &
 sleep 2
-PID=$(ps -ef | grep "v2ray -config" | grep -vE "grep|$(echo $$)" | awk '{print $2}')
-if [ -z "${PID}" ];then
+netstat -lnpt | grep "1099 "
+if [ $? -ne 0 ];then
     echo "RUN V2RAY failed. now quit...."
     exit
 fi

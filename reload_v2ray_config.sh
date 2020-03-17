@@ -1,6 +1,6 @@
 DIR_PATH="/data/data/v2ray-linux-arm64"
 CONFIG_FILE="config.json.simple"
-FILES_PATH="/sdcard/Download"
+FILES_PATH="$(cd `dirname $0`; pwd)"
 PID=$(ps -ef | grep "v2ray -config" | grep -vE "grep|$(echo $$)" | awk '{print $2}')
 
 if [ ! -f ${FILES_PATH}/${CONFIG_FILE} ];then

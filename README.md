@@ -19,7 +19,7 @@ android 系统的手机，如果具备ROOT环境（仅有adb shell 的 root权�
 
 应该包含的文件为 config.json.simple， return_ip-cn.sh， start_v2ray_and_iptables.sh， v2ray-linux-arm64.zip。
 
-因为有些Android手机没有unzip命令，所以请另外手动解压v2ray-linux-arm64.zip文件 到 /sdcard/Download/v2ray-linux-arm64/内 。
+因为有些Android手机没有unzip命令，所以请将v2ray-linux-arm64文件夹 也放到到 同一个目录内 。
 
 /sdcard/Download/v2ray-linux-arm64/ 内的文件应该包括 v2ray , v2ctl 文件。
 

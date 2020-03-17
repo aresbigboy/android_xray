@@ -21,7 +21,6 @@ android 系统的手机，如果具备ROOT环境（仅有adb shell 的 root权�
 
 因为有些Android手机没有unzip命令，所以请将v2ray-linux-arm64文件夹 也放到到 同一个目录内 。
 
-/sdcard/Download/v2ray-linux-arm64/ 内的文件应该包括 v2ray , v2ctl 文件。
 
 
 2、使用本机终端，或者adb shell，切到root权限后，执行 sh /sdcard/Download/start_v2ray_and_iptables.sh

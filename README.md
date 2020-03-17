@@ -15,20 +15,19 @@ android 系统的手机，如果具备ROOT环境（仅有adb shell 的 root权�
 
 使用方法：
 
-1、本项目全部文件下载到手机的 同一个目录内， 例如 /sdcard/Download/ 目录内。
+1、本项目全部文件下载到手机的 同一个目录内， 例如 /sdcard/Download/v2ray_running_in_android_root-master/  目录内。
 
-应该包含的文件为 config.json.simple， return_ip-cn.sh， start_v2ray_and_iptables.sh， v2ray-linux-arm64.zip。
-
-因为有些Android手机没有unzip命令，所以请将v2ray-linux-arm64文件夹 也放到到 同一个目录内 。
+应该包含的文件为 config.json.simple， return_ip-cn.sh， start_v2ray_and_iptables.sh， v2ray-linux-arm64
 
 
 
-2、使用本机终端，或者adb shell，切到root权限后，执行 sh /sdcard/Download/start_v2ray_and_iptables.sh
+
+2、使用本机终端，或者adb shell，切到root权限后，执行 sh /sdcard/Download/v2ray_running_in_android_root-master/start_v2ray_and_iptables.sh
 
 
-3、如果想不重启手机清理v2ray进以及恢复iptables规则， 运行 sh /sdcard/Download/clean_v2ray_and_iptables.sh 即可。
+3、如果想不重启手机清理v2ray进以及恢复iptables规则， 运行 sh /sdcard/Download/v2ray_running_in_android_root-master/clean_v2ray_and_iptables.sh 即可。
 
-4、如果修改了 /sdcard/Download/config.json.simple 这个配置文件后，想快速重启v2ray， 运行 sh /sdcard/Download/reload_v2ray_config.sh 即可。
+4、如果修改了 /sdcard/Download/v2ray_running_in_android_root-master/config.json.simple 这个配置文件后，想快速重启v2ray， 运行 sh /sdcard/Download/v2ray_running_in_android_root-master/reload_v2ray_config.sh 即可。
 
 ######################################################################################
 

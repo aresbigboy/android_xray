@@ -1,0 +1,15 @@
+V2Ray 4.21.3 (V2Fly, a community-driven edition of V2Ray.) Custom
+A unified platform for anti-censorship.
+main: failed to read config file: config.json.simple > v2ray.com/core/main/json: failed to execute v2ctl to convert config file. > v2ray.com/core/common/platform/ctlcmd: failed to execute v2ctl: v2ray.com/core/infra/conf/command: failed to parse json config > v2ray.com/core/infra/conf/serial: failed to parse json config > v2ray.com/core/infra/conf: failed to parse to outbound detour config. > json: cannot unmarshal string into Go struct field VMessOutboundTarget.vnext.port of type uint16
+
+ > exit status 255
+V2Ray 4.21.3 (V2Fly, a community-driven edition of V2Ray.) Custom
+A unified platform for anti-censorship.
+main: failed to read config file: config.json.simple > v2ray.com/core/main/json: failed to execute v2ctl to convert config file. > v2ray.com/core/common/platform/ctlcmd: failed to execute v2ctl: v2ray.com/core/infra/conf/command: failed to parse json config > v2ray.com/core/infra/conf/serial: failed to parse json config > v2ray.com/core/infra/conf: failed to parse to outbound detour config. > json: cannot unmarshal string into Go struct field VMessOutboundTarget.vnext.port of type uint16
+
+ > exit status 255
+V2Ray 4.21.3 (V2Fly, a community-driven edition of V2Ray.) Custom
+A unified platform for anti-censorship.
+main: failed to read config file: config.json.simple > v2ray.com/core/main/json: failed to execute v2ctl to convert config file. > v2ray.com/core/common/platform/ctlcmd: failed to execute v2ctl: v2ray.com/core/infra/conf/command: failed to parse json config > v2ray.com/core/infra/conf/serial: failed to parse json config > v2ray.com/core/infra/conf: failed to parse to outbound detour config. > json: cannot unmarshal string into Go struct field VMessOutboundTarget.vnext.port of type uint16
+
+ > exit status 255

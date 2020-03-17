@@ -25,6 +25,8 @@ done
 ############################################
 echo "RUN V2RAY...."
 nohup ${DIR_PATH}/v2ray -config=${FILES_PATH}/${CONFIG_FILE} > /dev/null 2>&1 &
+sleep 2
+ps -ef | grep "v2ray -config" | grep -vE "grep|$(echo $$)"
 if [[ $? -ne 0 ]];then
     echo "RUN V2RAY failed. now quit...."
     exit

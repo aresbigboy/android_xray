@@ -22,7 +22,7 @@ android 系统的手机，如果具备ROOT环境（仅有adb shell 的 root权�
 
 
 
-2、使用本机终端，或者adb shell下， 输入 su 回车，便可切到root权限。输入 cd /sdcard/Download/v2ray_running_in_android_root-master/ 进入工作目录。 执行 sh start_v2ray_and_iptables.sh 等待几分钟后出现 finished提示，即代表执行完成。
+2、使用本机终端，或者adb shell下， 输入 su 回车，便可切到root权限。输入 cd /sdcard/Download/v2ray_running_in_android_root-master/ 进入工作目录。 执行 sh start_v2ray_and_iptables.sh 等待几分钟后出现 finished 提示，即代表执行完成。
 
 
 3、如果想不重启手机清理v2ray进以及恢复iptables规则， 运行 sh clean_v2ray_and_iptables.sh 即可。
@@ -38,6 +38,6 @@ android 系统的手机，如果具备ROOT环境（仅有adb shell 的 root权�
 PS:   
 config.json.simple 是你的v2ray配置文件， 文件内的 outbound 根据你自己的v2ray配置进行修改（本项目使用的v2ray的tls+ws模式，根据文件内提示修改）。
 
-脚本执行因为需要添加chinaip段，所以跑完大概需要5分钟，不要着急。等它自己跑完。看到finished算是成功，否则请查看脚本提示的报错信息。
+脚本执行因为需要添加chinaip段，所以跑完大概需要5分钟，不要着急。等它自己跑完。看到 finished 算是成功，否则请查看脚本提示的报错信息。
 
 如果看到finished 但手机无法访问外国网站（没有被墙的外国网站也无法访问），那一定是v2ray的配置文件有问题，导致没有翻墙成功。请仔细检查config.json.simple这个配置文件的内容。

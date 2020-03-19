@@ -6,6 +6,10 @@
       "settings": {
         "network": "tcp,udp",
         "followRedirect": true
+      },
+      "sniffing": {
+        "enabled": true,
+        "destOverride": ["http", "tls"]
       }
    }
   ],

@@ -41,3 +41,7 @@ config.json.simple 是你的v2ray配置文件， 文件内的 outbound 根据你
 脚本执行因为需要添加chinaip段，所以跑完大概需要5分钟，不要着急。等它自己跑完。看到 finished 算是成功，否则请查看脚本提示的报错信息。
 
 如果看到finished 但手机无法访问外国网站（没有被墙的外国网站也无法访问），那一定是v2ray的配置文件有问题，导致没有翻墙成功。请仔细检查config.json.simple这个配置文件的内容。
+
+另外，如果是手机终端运行的话可以输入 你在终端里可以这样执行    
+su -c "sh /替换成你脚本放置的全路径/start_v2ray_and_iptables.sh"     例如: su -c "sh /storage/C2CB-1714/android_v2ray/start_v2ray_and_iptables.sh"    
+这样就能直接以root权限运行这个脚本，并且可以把这条命令记录在你终端的history命令里，以后运行，就不需要su切root，然后再打那么多路径的英文了，直接按上方向键调出命令，回车运行即可。

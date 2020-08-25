@@ -448,6 +448,7 @@ iptables -w 3 -t nat -A V2RAY -d  43.249.132.0/22  -j RETURN
 iptables -w 3 -t nat -A V2RAY -d  43.249.136.0/22  -j RETURN
 iptables -w 3 -t nat -A V2RAY -d  43.249.144.0/20  -j RETURN
 iptables -w 3 -t nat -A V2RAY -d  43.249.160.0/21  -j RETURN
+clear
 echo '10%  [#_________]'
 iptables -w 3 -t nat -A V2RAY -d  43.249.168.0/22  -j RETURN
 iptables -w 3 -t nat -A V2RAY -d  43.249.192.0/22  -j RETURN
@@ -914,6 +915,7 @@ iptables -w 3 -t nat -A V2RAY -d  101.101.64.0/19  -j RETURN
 iptables -w 3 -t nat -A V2RAY -d  101.101.100.0/24  -j RETURN
 iptables -w 3 -t nat -A V2RAY -d  101.101.102.0/23  -j RETURN
 iptables -w 3 -t nat -A V2RAY -d  101.101.104.0/21  -j RETURN
+clear
 echo '20%  [##________]'
 iptables -w 3 -t nat -A V2RAY -d  101.101.112.0/20  -j RETURN
 iptables -w 3 -t nat -A V2RAY -d  101.102.64.0/19  -j RETURN
@@ -1372,6 +1374,7 @@ iptables -w 3 -t nat -A V2RAY -d  103.63.80.0/21  -j RETURN
 iptables -w 3 -t nat -A V2RAY -d  103.63.88.0/22  -j RETURN
 iptables -w 3 -t nat -A V2RAY -d  103.63.140.0/22  -j RETURN
 iptables -w 3 -t nat -A V2RAY -d  103.63.144.0/22  -j RETURN
+clear
 echo '30%  [###_______]'
 iptables -w 3 -t nat -A V2RAY -d  103.63.152.0/22  -j RETURN
 iptables -w 3 -t nat -A V2RAY -d  103.63.196.0/22  -j RETURN
@@ -1830,6 +1833,7 @@ iptables -w 3 -t nat -A V2RAY -d  111.85.0.0/16  -j RETURN
 iptables -w 3 -t nat -A V2RAY -d  111.91.192.0/19  -j RETURN
 iptables -w 3 -t nat -A V2RAY -d  111.112.0.0/14  -j RETURN
 iptables -w 3 -t nat -A V2RAY -d  111.116.0.0/15  -j RETURN
+clear
 echo '40%  [####______]'
 iptables -w 3 -t nat -A V2RAY -d  111.118.200.0/21  -j RETURN
 iptables -w 3 -t nat -A V2RAY -d  111.119.64.0/18  -j RETURN
@@ -2288,6 +2292,7 @@ iptables -w 3 -t nat -A V2RAY -d  119.38.215.76/30  -j RETURN
 iptables -w 3 -t nat -A V2RAY -d  119.38.215.80/28  -j RETURN
 iptables -w 3 -t nat -A V2RAY -d  119.38.215.96/27  -j RETURN
 iptables -w 3 -t nat -A V2RAY -d  119.38.215.128/25  -j RETURN
+clear
 echo '50%  [#####_____]'
 iptables -w 3 -t nat -A V2RAY -d  119.38.216.0/21  -j RETURN
 iptables -w 3 -t nat -A V2RAY -d  119.39.0.0/16  -j RETURN
@@ -2746,6 +2751,7 @@ iptables -w 3 -t nat -A V2RAY -d  153.99.0.0/16  -j RETURN
 iptables -w 3 -t nat -A V2RAY -d  153.101.0.0/16  -j RETURN
 iptables -w 3 -t nat -A V2RAY -d  153.118.0.0/15  -j RETURN
 iptables -w 3 -t nat -A V2RAY -d  154.8.128.0/17  -j RETURN
+clear
 echo '60%  [######____]'
 iptables -w 3 -t nat -A V2RAY -d  157.0.0.0/16  -j RETURN
 iptables -w 3 -t nat -A V2RAY -d  157.18.0.0/16  -j RETURN
@@ -3204,6 +3210,7 @@ iptables -w 3 -t nat -A V2RAY -d  202.122.128.0/24  -j RETURN
 iptables -w 3 -t nat -A V2RAY -d  202.122.132.0/24  -j RETURN
 iptables -w 3 -t nat -A V2RAY -d  202.123.96.0/20  -j RETURN
 iptables -w 3 -t nat -A V2RAY -d  202.124.16.0/21  -j RETURN
+clear
 echo '70%  [#######___]'
 iptables -w 3 -t nat -A V2RAY -d  202.124.24.0/22  -j RETURN
 iptables -w 3 -t nat -A V2RAY -d  202.125.112.0/20  -j RETURN
@@ -3662,6 +3669,7 @@ iptables -w 3 -t nat -A V2RAY -d  203.20.230.0/24  -j RETURN
 iptables -w 3 -t nat -A V2RAY -d  203.20.232.0/24  -j RETURN
 iptables -w 3 -t nat -A V2RAY -d  203.20.236.0/24  -j RETURN
 iptables -w 3 -t nat -A V2RAY -d  203.21.0.0/23  -j RETURN
+clear
 echo '80%  [########__]'
 iptables -w 3 -t nat -A V2RAY -d  203.21.2.0/24  -j RETURN
 iptables -w 3 -t nat -A V2RAY -d  203.21.8.0/24  -j RETURN
@@ -4120,6 +4128,7 @@ iptables -w 3 -t nat -A V2RAY -d  203.65.240.0/22  -j RETURN
 iptables -w 3 -t nat -A V2RAY -d  203.76.160.0/22  -j RETURN
 iptables -w 3 -t nat -A V2RAY -d  203.76.168.0/22  -j RETURN
 iptables -w 3 -t nat -A V2RAY -d  203.76.208.0/21  -j RETURN
+clear
 echo '90%  [#########_]'
 iptables -w 3 -t nat -A V2RAY -d  203.76.216.0/22  -j RETURN
 iptables -w 3 -t nat -A V2RAY -d  203.77.180.0/22  -j RETURN
@@ -4586,6 +4595,7 @@ iptables -w 3 -t nat -A V2RAY -d  223.254.0.0/16  -j RETURN
 iptables -w 3 -t nat -A V2RAY -d  223.255.0.0/17  -j RETURN
 iptables -w 3 -t nat -A V2RAY -d  223.255.236.0/22  -j RETURN
 iptables -w 3 -t nat -A V2RAY -d  223.255.252.0/23  -j RETURN
+clear
 echo '100% [##########]'
 
 #### cloudflare ips-v4 ####

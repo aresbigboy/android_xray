@@ -70,6 +70,9 @@ while read VPSIP;do
     iptables -w 3 -t nat -I V2RAY -d ${VPSIP} -j RETURN;
 done
 
+# 直连 www.google.cn
+iptables -w 3 -t nat -A V2RAY -d 203.208.40.0/24 -j RETURN
+
 # 直连 国IP段
 echo "adding china ip rules please wait for minitus...."
 sh ${FILES_PATH}/return_ip-cn.sh

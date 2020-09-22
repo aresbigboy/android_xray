@@ -1600,7 +1600,6 @@ iptables -w 3 -t nat -A V2RAY -d  103.233.184.0/22  -j RETURN
 iptables -w 3 -t nat -A V2RAY -d  103.233.228.0/22  -j RETURN
 iptables -w 3 -t nat -A V2RAY -d  103.234.20.0/22  -j RETURN
 iptables -w 3 -t nat -A V2RAY -d  103.234.128.0/22  -j RETURN
-iptables -w 3 -t nat -A V2RAY -d  103.235.44.0/22  -j RETURN
 iptables -w 3 -t nat -A V2RAY -d  103.235.136.0/22  -j RETURN
 iptables -w 3 -t nat -A V2RAY -d  103.235.148.0/22  -j RETURN
 iptables -w 3 -t nat -A V2RAY -d  103.235.180.0/22  -j RETURN

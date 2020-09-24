@@ -43,7 +43,7 @@ nohup ${DIR_PATH}/v2ray -config=${FILES_PATH}/${CONFIG_FILE} > /dev/null 2>&1 &
 sleep 2
 netstat -lnpt | grep "1099 "
 if [ $? -ne 0 ];then
-    echo "RUN V2RAY failed. now quit...."
+    echo "RUN V2RAY Failed. Now quit...."
     exit
 fi
 

@@ -4315,6 +4315,10 @@ iptables -w 3 -t nat -A V2RAY -d  203.222.196.0/24  -j RETURN
 iptables -w 3 -t nat -A V2RAY -d  203.223.0.0/20  -j RETURN
 iptables -w 3 -t nat -A V2RAY -d  203.223.16.0/24  -j RETURN
 iptables -w 3 -t nat -A V2RAY -d  203.223.22.0/23  -j RETURN
+
+# qualcomm.cn
+iptables -w 3 -t nat -A V2RAY -d 221.230.0.0/16  -j RETURN
+
 iptables -w 3 -t nat -A V2RAY -d  210.2.0.0/23  -j RETURN
 iptables -w 3 -t nat -A V2RAY -d  210.2.2.0/24  -j RETURN
 iptables -w 3 -t nat -A V2RAY -d  210.2.4.0/22  -j RETURN

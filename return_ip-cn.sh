@@ -502,7 +502,7 @@ iptables -w 3 -t nat -A V2RAY -d  43.255.72.0/21  -j RETURN
 iptables -w 3 -t nat -A V2RAY -d  43.255.84.0/22  -j RETURN
 iptables -w 3 -t nat -A V2RAY -d  43.255.96.0/22  -j RETURN
 iptables -w 3 -t nat -A V2RAY -d  43.255.176.0/22  -j RETURN
-iptables -w 3 -t nat -A V2RAY -d  43.255.228.0/22  -j RETURN
+iptables -w 3 -t nat -A V2RAY -d  43.255.224.0/21  -j RETURN
 iptables -w 3 -t nat -A V2RAY -d  45.40.192.0/20  -j RETURN
 iptables -w 3 -t nat -A V2RAY -d  45.40.216.0/21  -j RETURN
 iptables -w 3 -t nat -A V2RAY -d  45.40.224.0/19  -j RETURN

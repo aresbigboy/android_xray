@@ -43,7 +43,7 @@ nohup ${DIR_PATH}/v2ray -config=${FILES_PATH}/${CONFIG_FILE} > /dev/null 2>&1 &
 sleep 2
 netstat -lnpt | grep "1099 "
 if [ $? -ne 0 ];then
-    echo "RUN V2RAY Failed. Now quit...."
+    echo "RUN V2RAY failed. now quit...."
     exit
 fi
 
@@ -72,15 +72,7 @@ done
 
 # 直连 国IP段
 echo "adding china ip rules please wait for minitus...."
-sh ${FILES_PATH}/return_ip-cn.sh &
-while ((1));do
-    echo -n "."
-    sleep 1
-    ps -ef | grep "return_ip-cn.sh" | grep -vE "grep|$$" > /dev/null 2>&1
-    if [[ $? -eq 0 ]];then
-        break
-    fi
-done
+sh ${FILES_PATH}/return_ip-cn.sh
 
 # V2ray 发出的流量 直连 (android seam to not support that....)
 #iptables -w 3 -t nat -A V2RAY -p tcp -m mark --mark 0xff -j RETURN

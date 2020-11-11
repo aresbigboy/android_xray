@@ -858,8 +858,7 @@ iptables -w 3 -t nat -A V2RAY -d 43.247.200.0/22 -j RETURN
 iptables -w 3 -t nat -A V2RAY -d 43.247.204.0/22 -j RETURN
 iptables -w 3 -t nat -A V2RAY -d 43.247.208.0/22 -j RETURN
 
-echo
-echo '10%'
+echo '10%  [#_________]'
 
 iptables -w 3 -t nat -A V2RAY -d 43.247.212.0/22 -j RETURN
 iptables -w 3 -t nat -A V2RAY -d 43.247.216.0/22 -j RETURN
@@ -1718,8 +1717,7 @@ iptables -w 3 -t nat -A V2RAY -d 59.153.168.0/22 -j RETURN
 iptables -w 3 -t nat -A V2RAY -d 59.153.172.0/22 -j RETURN
 iptables -w 3 -t nat -A V2RAY -d 59.153.176.0/22 -j RETURN
 
-echo
-echo '20%'
+echo '20%  [##________]'
 
 iptables -w 3 -t nat -A V2RAY -d 59.153.180.0/22 -j RETURN
 iptables -w 3 -t nat -A V2RAY -d 59.153.184.0/22 -j RETURN
@@ -2578,8 +2576,7 @@ iptables -w 3 -t nat -A V2RAY -d 103.43.224.0/22 -j RETURN
 iptables -w 3 -t nat -A V2RAY -d 103.43.240.0/22 -j RETURN
 iptables -w 3 -t nat -A V2RAY -d 103.44.56.0/22 -j RETURN
 
-echo
-echo '30%'
+echo '30%  [###_______]'
 
 iptables -w 3 -t nat -A V2RAY -d 103.44.80.0/22 -j RETURN
 iptables -w 3 -t nat -A V2RAY -d 103.44.88.0/22 -j RETURN
@@ -3438,8 +3435,7 @@ iptables -w 3 -t nat -A V2RAY -d 103.95.152.0/22 -j RETURN
 iptables -w 3 -t nat -A V2RAY -d 103.95.207.0/24 -j RETURN
 iptables -w 3 -t nat -A V2RAY -d 103.95.216.0/22 -j RETURN
 
-echo
-echo '40%'
+echo '40%  [####______]'
 
 iptables -w 3 -t nat -A V2RAY -d 103.95.220.0/22 -j RETURN
 iptables -w 3 -t nat -A V2RAY -d 103.95.224.0/22 -j RETURN
@@ -4298,8 +4294,7 @@ iptables -w 3 -t nat -A V2RAY -d 103.202.40.0/22 -j RETURN
 iptables -w 3 -t nat -A V2RAY -d 103.202.44.0/22 -j RETURN
 iptables -w 3 -t nat -A V2RAY -d 103.202.56.0/22 -j RETURN
 
-echo
-echo '50%'
+echo '50%  [#####_____]'
 
 iptables -w 3 -t nat -A V2RAY -d 103.202.60.0/22 -j RETURN
 iptables -w 3 -t nat -A V2RAY -d 103.202.64.0/22 -j RETURN
@@ -5158,8 +5153,7 @@ iptables -w 3 -t nat -A V2RAY -d 103.255.136.0/22 -j RETURN
 iptables -w 3 -t nat -A V2RAY -d 103.255.140.0/22 -j RETURN
 iptables -w 3 -t nat -A V2RAY -d 103.255.184.0/22 -j RETURN
 
-echo
-echo '60%'
+echo '60%  [######____]'
 
 iptables -w 3 -t nat -A V2RAY -d 103.255.200.0/22 -j RETURN
 iptables -w 3 -t nat -A V2RAY -d 103.255.212.0/22 -j RETURN
@@ -6018,8 +6012,7 @@ iptables -w 3 -t nat -A V2RAY -d 125.98.0.0/16 -j RETURN
 iptables -w 3 -t nat -A V2RAY -d 125.104.0.0/13 -j RETURN
 iptables -w 3 -t nat -A V2RAY -d 125.112.0.0/12 -j RETURN
 
-echo
-echo '70%'
+echo '70%  [#######___]'
 
 iptables -w 3 -t nat -A V2RAY -d 125.169.0.0/16 -j RETURN
 iptables -w 3 -t nat -A V2RAY -d 125.171.0.0/16 -j RETURN
@@ -6878,8 +6871,7 @@ iptables -w 3 -t nat -A V2RAY -d 202.99.240.0/20 -j RETURN
 iptables -w 3 -t nat -A V2RAY -d 202.100.0.0/21 -j RETURN
 iptables -w 3 -t nat -A V2RAY -d 202.100.8.0/21 -j RETURN
 
-echo
-echo '80%'
+echo '80%  [########__]'
 
 iptables -w 3 -t nat -A V2RAY -d 202.100.16.0/20 -j RETURN
 iptables -w 3 -t nat -A V2RAY -d 202.100.32.0/19 -j RETURN
@@ -7738,8 +7730,7 @@ iptables -w 3 -t nat -A V2RAY -d 203.30.162.0/24 -j RETURN
 iptables -w 3 -t nat -A V2RAY -d 203.30.173.0/24 -j RETURN
 iptables -w 3 -t nat -A V2RAY -d 203.30.175.0/24 -j RETURN
 
-echo
-echo '90%'
+echo '90%  [#########_]'
 
 iptables -w 3 -t nat -A V2RAY -d 203.30.187.0/24 -j RETURN
 iptables -w 3 -t nat -A V2RAY -d 203.30.194.0/24 -j RETURN
@@ -8598,8 +8589,7 @@ iptables -w 3 -t nat -A V2RAY -d 223.202.0.0/15 -j RETURN
 iptables -w 3 -t nat -A V2RAY -d 223.208.0.0/14 -j RETURN
 iptables -w 3 -t nat -A V2RAY -d 223.212.0.0/15 -j RETURN
 
-echo
-echo '100%'
+echo '100%  [##########]'
 
 iptables -w 3 -t nat -A V2RAY -d 223.214.0.0/15 -j RETURN
 iptables -w 3 -t nat -A V2RAY -d 223.220.0.0/15 -j RETURN

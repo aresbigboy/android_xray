@@ -1,7 +1,6 @@
 DIR_PATH="/data/data/v2ray-linux-arm64"
 CONFIG_FILE="config.json.simple"
 FILES_PATH="$(cd `dirname $0`; pwd)"
-PID=$(ps -ef | grep "v2ray -config" | grep -vE "grep|$(echo $$)" | awk '{print $2}')
 
 if [ ! -f ${FILES_PATH}/${CONFIG_FILE} ];then
     echo "V2RAY CONFIG FILE "${FILES_PATH}/${CONFIG_FILE}" not exist. now quit...."
@@ -12,19 +11,7 @@ if [ ! -f ${FILES_PATH}/return_ip-cn.sh ];then
     echo "${FILES_PATH}/return_ip-cn.sh not exist. WARNING!!!...."
 fi
 
-if [ -n "${PID}" ];then
-    echo "V2RAY is running, then kill it...."
-    kill -9 ${PID}
-    sleep 2
-fi
-
-if [[ $(iptables-save | grep V2RAY | wc -l) -ne 0 ]];then
-    echo "found iptables for V2RAY. now clean rules...."
-    iptables -w 3 -t nat -D PREROUTING -p tcp -j V2RAY
-    iptables -w 3 -t nat -D OUTPUT -p tcp -j V2RAY
-    iptables -w 3 -t nat -F V2RAY
-    iptables -w 3 -t nat -X V2RAY
-fi
+. ${FILES_PATH}/clean_v2ray_and_iptables.sh
 
 ############################################
 echo "prepareing V2RAY package to ${DIR_PATH}...."

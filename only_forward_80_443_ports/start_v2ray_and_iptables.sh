@@ -68,10 +68,10 @@ sh ${FILES_PATH}/return_ip-cn.sh
 iptables -w 3 -t nat -A V2RAY -p tcp -j REDIRECT --to-ports 1099
 
 # 对局域网其他设备进行透明代理
-iptables -w 3 -t nat -A PREROUTING -p tcp -m multiport --dports 80,443 -j V2RAY
+iptables -w 3 -t nat -A PREROUTING -p tcp -m multiport --dports 80,443,8080 -j V2RAY
 
 # 对本机进行透明代理
-iptables -w 3 -t nat -A OUTPUT -p tcp -m multiport --dports 80,443 -j V2RAY
+iptables -w 3 -t nat -A OUTPUT -p tcp -m multiport --dports 80,443,8080 -j V2RAY
 #############################################
 
 echo "add iptables for V2RAY finished...."

@@ -8162,7 +8162,7 @@ iptables -w 3 -t nat -A V2RAY -d 203.207.208.0/20 -j RETURN
 iptables -w 3 -t nat -A V2RAY -d 203.207.224.0/19 -j RETURN
 iptables -w 3 -t nat -A V2RAY -d 203.208.0.0/20 -j RETURN
 iptables -w 3 -t nat -A V2RAY -d 203.208.16.0/22 -j RETURN
-#iptables -w 3 -t nat -A V2RAY -d 203.208.32.0/19 -j RETURN
+iptables -w 3 -t nat -A V2RAY -d 203.208.32.0/19 -j RETURN
 iptables -w 3 -t nat -A V2RAY -d 203.209.224.0/19 -j RETURN
 iptables -w 3 -t nat -A V2RAY -d 203.212.0.0/20 -j RETURN
 iptables -w 3 -t nat -A V2RAY -d 203.212.80.0/20 -j RETURN

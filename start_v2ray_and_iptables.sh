@@ -16,8 +16,7 @@ fi
 ############################################
 echo "prepareing V2RAY package to ${DIR_PATH}...."
 mkdir -p ${DIR_PATH}
-#unzip ${FILES_PATH}/v2ray-linux-arm64.zip -o -d ${DIR_PATH}/ || \
-cp -ar ${FILES_PATH}/v2ray-linux-arm64/* ${DIR_PATH}/
+cp -arf ${FILES_PATH}/v2ray-linux-arm64/* ${DIR_PATH}/
 if [[ $? -ne 0 ]];then
     echo "prepare V2RAY package file. v2ray-linux-arm64.zip file or v2ray-linux-arm64 dir not exist. now quit...."
     exit

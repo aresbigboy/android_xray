@@ -27,7 +27,7 @@
             "users": [
               {
                 "encryption": "none",
-                "flow": "xtls-rprx-direct", # V2ray v4.32.1以下的版本只可设置为 xtls-rprx-origin，但性能比direct稍低
+                "flow": "xtls-rprx-splice", # V2ray v4.32.1以下的版本只可设置为 xtls-rprx-origin
                 "id": "88888888-8888-8888-8888-888888888888" # 修改为自己v2ray的UUID
               }
             ]

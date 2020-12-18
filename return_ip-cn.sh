@@ -8591,30 +8591,30 @@ iptables -w 3 -t nat -A V2RAY -d 223.212.0.0/15 -j RETURN
 
 echo '100%  [##########]'
 
-iptables -w 3 -t nat -A V2RAY -d 223.214.0.0/15 -j RETURN
-iptables -w 3 -t nat -A V2RAY -d 223.220.0.0/15 -j RETURN
-iptables -w 3 -t nat -A V2RAY -d 223.223.176.0/20 -j RETURN
-iptables -w 3 -t nat -A V2RAY -d 223.223.192.0/20 -j RETURN
-iptables -w 3 -t nat -A V2RAY -d 223.240.0.0/13 -j RETURN
-iptables -w 3 -t nat -A V2RAY -d 223.248.0.0/14 -j RETURN
-iptables -w 3 -t nat -A V2RAY -d 223.252.128.0/17 -j RETURN
-iptables -w 3 -t nat -A V2RAY -d 223.254.0.0/16 -j RETURN
-iptables -w 3 -t nat -A V2RAY -d 223.255.0.0/17 -j RETURN
-iptables -w 3 -t nat -A V2RAY -d 223.255.236.0/22 -j RETURN
-iptables -w 3 -t nat -A V2RAY -d 223.255.252.0/23 -j RETURN
+#iptables -w 3 -t nat -A V2RAY -d 223.214.0.0/15 -j RETURN
+#iptables -w 3 -t nat -A V2RAY -d 223.220.0.0/15 -j RETURN
+#iptables -w 3 -t nat -A V2RAY -d 223.223.176.0/20 -j RETURN
+#iptables -w 3 -t nat -A V2RAY -d 223.223.192.0/20 -j RETURN
+#iptables -w 3 -t nat -A V2RAY -d 223.240.0.0/13 -j RETURN
+#iptables -w 3 -t nat -A V2RAY -d 223.248.0.0/14 -j RETURN
+#iptables -w 3 -t nat -A V2RAY -d 223.252.128.0/17 -j RETURN
+#iptables -w 3 -t nat -A V2RAY -d 223.254.0.0/16 -j RETURN
+#iptables -w 3 -t nat -A V2RAY -d 223.255.0.0/17 -j RETURN
+#iptables -w 3 -t nat -A V2RAY -d 223.255.236.0/22 -j RETURN
+#iptables -w 3 -t nat -A V2RAY -d 223.255.252.0/23 -j RETURN
 
 #### cloudflare ips-v4 ####
-iptables -w 3 -t nat -A V2RAY -d  173.245.48.0/20  -j RETURN
-iptables -w 3 -t nat -A V2RAY -d  103.21.244.0/22  -j RETURN
-iptables -w 3 -t nat -A V2RAY -d  103.22.200.0/22  -j RETURN
-iptables -w 3 -t nat -A V2RAY -d  103.31.4.0/22  -j RETURN
-iptables -w 3 -t nat -A V2RAY -d  141.101.64.0/18  -j RETURN
-iptables -w 3 -t nat -A V2RAY -d  108.162.192.0/18  -j RETURN
-iptables -w 3 -t nat -A V2RAY -d  190.93.240.0/20  -j RETURN
-iptables -w 3 -t nat -A V2RAY -d  188.114.96.0/20  -j RETURN
-iptables -w 3 -t nat -A V2RAY -d  197.234.240.0/22  -j RETURN
-iptables -w 3 -t nat -A V2RAY -d  198.41.128.0/17  -j RETURN
-iptables -w 3 -t nat -A V2RAY -d  162.158.0.0/15  -j RETURN
-iptables -w 3 -t nat -A V2RAY -d  104.16.0.0/12  -j RETURN
-iptables -w 3 -t nat -A V2RAY -d  172.64.0.0/13  -j RETURN
-iptables -w 3 -t nat -A V2RAY -d  131.0.72.0/22  -j RETURN
+#iptables -w 3 -t nat -A V2RAY -d  173.245.48.0/20  -j RETURN
+#iptables -w 3 -t nat -A V2RAY -d  103.21.244.0/22  -j RETURN
+#iptables -w 3 -t nat -A V2RAY -d  103.22.200.0/22  -j RETURN
+#iptables -w 3 -t nat -A V2RAY -d  103.31.4.0/22  -j RETURN
+#iptables -w 3 -t nat -A V2RAY -d  141.101.64.0/18  -j RETURN
+#iptables -w 3 -t nat -A V2RAY -d  108.162.192.0/18  -j RETURN
+#iptables -w 3 -t nat -A V2RAY -d  190.93.240.0/20  -j RETURN
+#iptables -w 3 -t nat -A V2RAY -d  188.114.96.0/20  -j RETURN
+#iptables -w 3 -t nat -A V2RAY -d  197.234.240.0/22  -j RETURN
+#iptables -w 3 -t nat -A V2RAY -d  198.41.128.0/17  -j RETURN
+#iptables -w 3 -t nat -A V2RAY -d  162.158.0.0/15  -j RETURN
+#iptables -w 3 -t nat -A V2RAY -d  104.16.0.0/12  -j RETURN
+#iptables -w 3 -t nat -A V2RAY -d  172.64.0.0/13  -j RETURN
+#iptables -w 3 -t nat -A V2RAY -d  131.0.72.0/22  -j RETURN

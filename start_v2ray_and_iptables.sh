@@ -1,5 +1,5 @@
 DIR_PATH="/data/data/v2ray-linux-arm64"
-CONFIG_FILE="config.json.simple"
+CONFIG_FILE="config.json"
 FILES_PATH="$(cd `dirname $0`; pwd)"
 
 if [ ! -f ${FILES_PATH}/${CONFIG_FILE} ];then

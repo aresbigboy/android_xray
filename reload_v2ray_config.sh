@@ -1,7 +1,7 @@
 DIR_PATH="/data/data/v2ray-linux-arm64"
-CONFIG_FILE="config.json.simple"
+CONFIG_FILE="config.json"
 FILES_PATH="$(cd `dirname $0`; pwd)"
-PID=$(ps -ef | grep "v2ray -config.*config.json.simple" | grep -vE "grep|$(echo $$)" | awk '{print $2}')
+PID=$(ps -ef | grep "v2ray -config.*config.json" | grep -vE "grep|$(echo $$)" | awk '{print $2}')
 
 if [ ! -f ${FILES_PATH}/${CONFIG_FILE} ];then
     echo "V2RAY CONFIG FILE "${FILES_PATH}/${CONFIG_FILE}" not exist. now quit...."

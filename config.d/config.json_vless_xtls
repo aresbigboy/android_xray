@@ -1,0 +1,46 @@
+{
+  "inbounds": [
+   {
+      "port": 1099,
+      "protocol": "dokodemo-door",
+      "settings": {
+        "network": "tcp,udp",
+        "followRedirect": true
+      },
+      "sniffing": {
+        "enabled": true,
+        "destOverride": ["http", "tls"]
+      }
+   }
+  ],
+  "log": {
+    "loglevel": "none"
+  },
+  "outbounds": [
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "0.0.0.0", # 修改为自己vps的ip地址。注意一定用ip，不要用域名
+            "port": 443, # 修改为自己vps上搭建的v2ray的服务端口
+            "users": [
+              {
+                "encryption": "none",
+                "flow": "xtls-rprx-splice", # V2ray v4.32.1以下的版本只可设置为 xtls-rprx-origin
+                "id": "88888888-8888-8888-8888-888888888888" # 修改为自己v2ray的UUID
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "xtls",
+        "xtlsSettings": {
+          "allowInsecure": true
+        }
+      }
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-PID=$(ps -ef | grep "v2ray -config.*config.json.simple" | grep -vE "grep|$(echo $$)" | awk '{print $2}')
+PID=$(ps -ef | grep "v2ray -config.*config.json" | grep -vE "grep|$(echo $$)" | awk '{print $2}')
 
 if [ -n "${PID}" ];then
     echo "V2RAY is running, then kill it...."

@@ -1,7 +1,7 @@
 {
   "inbounds": [
    {
-      "port": 1099,
+      "port": 61099,
       "protocol": "dokodemo-door",
       "settings": {
         "network": "tcp,udp",

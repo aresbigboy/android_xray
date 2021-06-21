@@ -27,7 +27,7 @@ chmod -R +x ${DIR_PATH}
 echo "RUN V2RAY...."
 nohup ${DIR_PATH}/v2ray -config=${FILES_PATH}/${CONFIG_FILE} > /dev/null 2>&1 &
 sleep 2
-netstat -lnpt | grep "1099 "
+netstat -lnpt | grep "61099 "
 if [ $? -ne 0 ];then
     echo "RUN V2RAY failed. now quit...."
     exit
@@ -63,8 +63,8 @@ sh ${FILES_PATH}/return_ip-cn.sh
 # V2ray 发出的流量 直连 (android seam to not support that....)
 #iptables -w 3 -t nat -A V2RAY -p tcp -m mark --mark 0xff -j RETURN
 
-# 其余流量转发到 1099 端口（即 V2Ray）
-iptables -w 3 -t nat -A V2RAY -p tcp -j REDIRECT --to-ports 1099
+# 其余流量转发到 61099 端口（即 V2Ray）
+iptables -w 3 -t nat -A V2RAY -p tcp -j REDIRECT --to-ports 61099
 
 # 对局域网其他设备进行透明代理
 iptables -w 3 -t nat -A PREROUTING -p tcp -m multiport --dports 80,443,8080 -j V2RAY

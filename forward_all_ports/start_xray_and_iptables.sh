@@ -64,10 +64,10 @@ sh ${FILES_PATH}/return_ip-cn.sh
 iptables -w 3 -t nat -A XRAY -p tcp -j REDIRECT --to-ports 61099
 
 # 对局域网其他设备进行透明代理
-iptables -w 3 -t nat -A PREROUTING -p tcp -m multiport --dports 80,443,8080 -j XRAY
+iptables -w 3 -t nat -A PREROUTING -p tcp -j XRAY
 
 # 对本机进行透明代理
-iptables -w 3 -t nat -A OUTPUT -p tcp -m multiport --dports 80,443,8080 -j XRAY
+iptables -w 3 -t nat -A OUTPUT -p tcp -j XRAY
 #############################################
 
 echo "add iptables for XRAY finished...."

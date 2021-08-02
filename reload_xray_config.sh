@@ -1,6 +1,6 @@
 DIR_PATH="/data/data/xray-linux-arm64"
-CONFIG_FILE="config.json"
 FILES_PATH="$(cd `dirname $0`; pwd)"
+CONFIG_FILE="$(cd $FILES_PATH && ls *config.json*)"
 PID=$(pgrep xray)
 
 if [ ! -f ${FILES_PATH}/${CONFIG_FILE} ];then
@@ -24,7 +24,7 @@ done
 
 ############################################
 echo "RUN XRAY...."
-nohup ${DIR_PATH}/xray -config=${FILES_PATH}/${CONFIG_FILE} > /dev/null 2>&1 &
+nohup ${DIR_PATH}/xray -config=${FILES_PATH}/${CONFIG_FILE} -format=json > /dev/null 2>&1 &
 sleep 2
 netstat -lnpt | grep "61099 "
 if [ $? -ne 0 ];then

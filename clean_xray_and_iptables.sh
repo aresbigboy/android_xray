@@ -12,3 +12,5 @@ if [[ $(iptables-save | grep XRAY | wc -l) -ne 0 ]];then
     iptables -t nat -F XRAY
     iptables -t nat -X XRAY
 fi
+
+iptables -w 3 -t nat -D OUTPUT -p tcp -m owner --uid-owner 0 -j RETURN

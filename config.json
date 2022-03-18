@@ -1,4 +1,340 @@
 {
+  "dns": {
+    "hosts": {
+      "geosite:category-ads-all": "127.0.0.1",
+      "domain:googleapis.cn": "googleapis.com"
+    },
+    "servers": [
+      {
+        "address": "fakedns",
+        "domains": [
+          "geosite:cn",
+          "geosite:google",
+          "geosite:github",
+          "geosite:netflix",
+          "geosite:steam",
+          "geosite:telegram",
+          "geosite:tumblr",
+          "geosite:speedtest",
+          "geosite:bbc",
+          "domain:gvt1.com",
+          "domain:textnow.com",
+          "domain:twitch.tv",
+          "domain:wikileaks.org",
+          "domain:naver.com",
+          "domain:12306.com",
+          "domain:51ym.me",
+          "domain:52pojie.cn",
+          "domain:8686c.com",
+          "domain:abercrombie.com",
+          "domain:adobesc.com",
+          "domain:air-matters.com",
+          "domain:air-matters.io",
+          "domain:airtable.com",
+          "domain:akadns.net",
+          "domain:apache.org",
+          "domain:api.crisp.chat",
+          "domain:api.termius.com",
+          "domain:appshike.com",
+          "domain:appstore.com",
+          "domain:aweme.snssdk.com",
+          "domain:bababian.com",
+          "domain:battle.net",
+          "domain:beatsbydre.com",
+          "domain:bet365.com",
+          "domain:bilibili.cn",
+          "domain:ccgslb.com",
+          "domain:ccgslb.net",
+          "domain:chunbo.com",
+          "domain:chunboimg.com",
+          "domain:clashroyaleapp.com",
+          "domain:cloudsigma.com",
+          "domain:cloudxns.net",
+          "domain:cmfu.com",
+          "domain:culturedcode.com",
+          "domain:dct-cloud.com",
+          "domain:didialift.com",
+          "domain:douyutv.com",
+          "domain:duokan.com",
+          "domain:dytt8.net",
+          "domain:easou.com",
+          "domain:ecitic.net",
+          "domain:eclipse.org",
+          "domain:eudic.net",
+          "domain:ewqcxz.com",
+          "domain:fir.im",
+          "domain:frdic.com",
+          "domain:fresh-ideas.cc",
+          "domain:godic.net",
+          "domain:goodread.com",
+          "domain:haibian.com",
+          "domain:hdslb.net",
+          "domain:hollisterco.com",
+          "domain:hongxiu.com",
+          "domain:hxcdn.net",
+          "domain:images.unsplash.com",
+          "domain:img4me.com",
+          "domain:ipify.org",
+          "domain:ixdzs.com",
+          "domain:jd.hk",
+          "domain:jianshuapi.com",
+          "domain:jomodns.com",
+          "domain:jsboxbbs.com",
+          "domain:knewone.com",
+          "domain:kuaidi100.com",
+          "domain:lemicp.com",
+          "domain:letvcloud.com",
+          "domain:lizhi.io",
+          "domain:localizecdn.com",
+          "domain:lucifr.com",
+          "domain:luoo.net",
+          "domain:mai.tn",
+          "domain:maven.org",
+          "domain:miwifi.com",
+          "domain:moji.com",
+          "domain:moke.com",
+          "domain:mtalk.google.com",
+          "domain:mxhichina.com",
+          "domain:myqcloud.com",
+          "domain:myunlu.com",
+          "domain:netease.com",
+          "domain:nfoservers.com",
+          "domain:nssurge.com",
+          "domain:nuomi.com",
+          "domain:ourdvs.com",
+          "domain:overcast.fm",
+          "domain:paypal.com",
+          "domain:paypalobjects.com",
+          "domain:pgyer.com",
+          "domain:qdaily.com",
+          "domain:qdmm.com",
+          "domain:qin.io",
+          "domain:qingmang.me",
+          "domain:qingmang.mobi",
+          "domain:qqurl.com",
+          "domain:rarbg.to",
+          "domain:rrmj.tv",
+          "domain:ruguoapp.com",
+          "domain:sm.ms",
+          "domain:snwx.com",
+          "domain:soku.com",
+          "domain:startssl.com",
+          "domain:store.steampowered.com",
+          "domain:symcd.com",
+          "domain:teamviewer.com",
+          "domain:tmzvps.com",
+          "domain:trello.com",
+          "domain:trellocdn.com",
+          "domain:ttmeiju.com",
+          "domain:udache.com",
+          "domain:uxengine.net",
+          "domain:weather.bjango.com",
+          "domain:weather.com",
+          "domain:webqxs.com",
+          "domain:weico.cc",
+          "domain:wenku8.net",
+          "domain:werewolf.53site.com",
+          "domain:windowsupdate.com",
+          "domain:wkcdn.com",
+          "domain:workflowy.com",
+          "domain:xdrig.com",
+          "domain:xiaojukeji.com",
+          "domain:xiaomi.net",
+          "domain:xiaomicp.com",
+          "domain:ximalaya.com",
+          "domain:xitek.com",
+          "domain:xmcdn.com",
+          "domain:xslb.net",
+          "domain:xteko.com",
+          "domain:yach.me",
+          "domain:yixia.com",
+          "domain:yunjiasu-cdn.net",
+          "domain:zealer.com",
+          "domain:zgslb.net",
+          "domain:zimuzu.tv",
+          "domain:zmz002.com",
+          "domain:samsungdm.com"
+        ]
+      },
+      "1.1.1.1",
+      {
+        "address": "1.1.1.1",
+        "domains": [
+          "geosite:google",
+          "geosite:github",
+          "geosite:netflix",
+          "geosite:steam",
+          "geosite:telegram",
+          "geosite:tumblr",
+          "geosite:speedtest",
+          "geosite:bbc",
+          "domain:gvt1.com",
+          "domain:textnow.com",
+          "domain:twitch.tv",
+          "domain:wikileaks.org",
+          "domain:naver.com"
+        ],
+        "port": 53
+      },
+      {
+        "address": "223.5.5.5",
+        "domains": [
+          "domain:12306.com",
+          "domain:51ym.me",
+          "domain:52pojie.cn",
+          "domain:8686c.com",
+          "domain:abercrombie.com",
+          "domain:adobesc.com",
+          "domain:air-matters.com",
+          "domain:air-matters.io",
+          "domain:airtable.com",
+          "domain:akadns.net",
+          "domain:apache.org",
+          "domain:api.crisp.chat",
+          "domain:api.termius.com",
+          "domain:appshike.com",
+          "domain:appstore.com",
+          "domain:aweme.snssdk.com",
+          "domain:bababian.com",
+          "domain:battle.net",
+          "domain:beatsbydre.com",
+          "domain:bet365.com",
+          "domain:bilibili.cn",
+          "domain:ccgslb.com",
+          "domain:ccgslb.net",
+          "domain:chunbo.com",
+          "domain:chunboimg.com",
+          "domain:clashroyaleapp.com",
+          "domain:cloudsigma.com",
+          "domain:cloudxns.net",
+          "domain:cmfu.com",
+          "domain:culturedcode.com",
+          "domain:dct-cloud.com",
+          "domain:didialift.com",
+          "domain:douyutv.com",
+          "domain:duokan.com",
+          "domain:dytt8.net",
+          "domain:easou.com",
+          "domain:ecitic.net",
+          "domain:eclipse.org",
+          "domain:eudic.net",
+          "domain:ewqcxz.com",
+          "domain:fir.im",
+          "domain:frdic.com",
+          "domain:fresh-ideas.cc",
+          "domain:godic.net",
+          "domain:goodread.com",
+          "domain:haibian.com",
+          "domain:hdslb.net",
+          "domain:hollisterco.com",
+          "domain:hongxiu.com",
+          "domain:hxcdn.net",
+          "domain:images.unsplash.com",
+          "domain:img4me.com",
+          "domain:ipify.org",
+          "domain:ixdzs.com",
+          "domain:jd.hk",
+          "domain:jianshuapi.com",
+          "domain:jomodns.com",
+          "domain:jsboxbbs.com",
+          "domain:knewone.com",
+          "domain:kuaidi100.com",
+          "domain:lemicp.com",
+          "domain:letvcloud.com",
+          "domain:lizhi.io",
+          "domain:localizecdn.com",
+          "domain:lucifr.com",
+          "domain:luoo.net",
+          "domain:mai.tn",
+          "domain:maven.org",
+          "domain:miwifi.com",
+          "domain:moji.com",
+          "domain:moke.com",
+          "domain:mtalk.google.com",
+          "domain:mxhichina.com",
+          "domain:myqcloud.com",
+          "domain:myunlu.com",
+          "domain:netease.com",
+          "domain:nfoservers.com",
+          "domain:nssurge.com",
+          "domain:nuomi.com",
+          "domain:ourdvs.com",
+          "domain:overcast.fm",
+          "domain:paypal.com",
+          "domain:paypalobjects.com",
+          "domain:pgyer.com",
+          "domain:qdaily.com",
+          "domain:qdmm.com",
+          "domain:qin.io",
+          "domain:qingmang.me",
+          "domain:qingmang.mobi",
+          "domain:qqurl.com",
+          "domain:rarbg.to",
+          "domain:rrmj.tv",
+          "domain:ruguoapp.com",
+          "domain:sm.ms",
+          "domain:snwx.com",
+          "domain:soku.com",
+          "domain:startssl.com",
+          "domain:store.steampowered.com",
+          "domain:symcd.com",
+          "domain:teamviewer.com",
+          "domain:tmzvps.com",
+          "domain:trello.com",
+          "domain:trellocdn.com",
+          "domain:ttmeiju.com",
+          "domain:udache.com",
+          "domain:uxengine.net",
+          "domain:weather.bjango.com",
+          "domain:weather.com",
+          "domain:webqxs.com",
+          "domain:weico.cc",
+          "domain:wenku8.net",
+          "domain:werewolf.53site.com",
+          "domain:windowsupdate.com",
+          "domain:wkcdn.com",
+          "domain:workflowy.com",
+          "domain:xdrig.com",
+          "domain:xiaojukeji.com",
+          "domain:xiaomi.net",
+          "domain:xiaomicp.com",
+          "domain:ximalaya.com",
+          "domain:xitek.com",
+          "domain:xmcdn.com",
+          "domain:xslb.net",
+          "domain:xteko.com",
+          "domain:yach.me",
+          "domain:yixia.com",
+          "domain:yunjiasu-cdn.net",
+          "domain:zealer.com",
+          "domain:zgslb.net",
+          "domain:zimuzu.tv",
+          "domain:zmz002.com",
+          "domain:samsungdm.com"
+        ],
+        "expectIPs": [
+          "geoip:cn"
+        ],
+        "port": 53
+      },
+      {
+        "address": "223.5.5.5",
+        "domains": [
+          "geosite:cn"
+        ],
+        "expectIPs": [
+          "geoip:cn"
+        ],
+        "port": 53
+      }
+    ]
+  },
+  "fakedns": [
+    {
+      "ipPool": "198.18.0.0/15",
+      "poolSize": 10000
+    }
+  ],
   "inbounds": [
    {
       "port": 61099,
@@ -11,7 +347,46 @@
         "enabled": true,
         "destOverride": ["http", "tls"]
       }
-   }
+   },
+    {
+      "listen": "127.0.0.1",
+      "port": 10808,
+      "protocol": "socks",
+      "settings": {
+        "auth": "noauth",
+        "udp": true,
+        "userLevel": 8
+      },
+      "sniffing": {
+        "destOverride": [
+          "http",
+          "tls",
+          "fakedns"
+        ],
+        "enabled": true
+      },
+      "tag": "socks"
+    },
+    {
+      "listen": "127.0.0.1",
+      "port": 10809,
+      "protocol": "http",
+      "settings": {
+        "userLevel": 8
+      },
+      "tag": "http"
+    },
+    {
+      "listen": "127.0.0.1",
+      "port": 10853,
+      "protocol": "dokodemo-door",
+      "settings": {
+        "address": "1.1.1.1",
+        "network": "tcp,udp",
+        "port": 53
+      },
+      "tag": "dns-in"
+    }
   ],
   "log": {
     "loglevel": "none"
@@ -19,16 +394,26 @@
   "outbounds": [
     {
       "mux": {"enabled": false},
-      "protocol": "vmess",
+      "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "0.0.0.0", # 修改为自己vps的ip地址。注意一定用ip，不要用域名
-            "port": 443, # 修改为自己vps上搭建的v2ray的服务端口。通常tls+ws模式是443，仅ws模式是80
+
+            #################
+            "address": "$IP",
+            "port": $PORT,
+            #################
+
             "users": [
               {
-                "alterId": 1,
-                "id": "88888888-8888-8888-8888-888888888888", # 修改为自己v2ray的UUID
+                "encryption": "none",
+                "flow": "xtls-rprx-splice",
+
+                ##############
+                "id": "$UUID",
+                ##############
+
+                "level": 8,
                 "security": "auto"
               }
             ]
@@ -36,20 +421,301 @@
         ]
       },
       "streamSettings": {
-        "network": "ws",
-        "security": "tls",
-        "tlssettings": {
-          "allowInsecure": true,
-          "serverName": "apple.com" # 修改为自己申请的域名，或者其他想伪装域名
+        "network": "tcp",
+        "security": "xtls",
+        "tcpSettings": {
+          "header": {
+            "type": "none"
+          }
         },
-        "wssettings": {
-          "connectionReuse": true,
-          "headers": {
-            "Host": "apple.com" # 修改为自己申请的域名，或者其他想伪装域名
-          },
-          "path": "/" # 修改为自己v2ray配置的PATH路径
+        "xtlsSettings": {
+          "allowInsecure": true,
+          "serverName": "apple.com"
         }
-      }
+      },
+      "tag": "proxy"
+    },
+    {
+      "protocol": "freedom",
+      "settings": {
+        "domainStrategy": "UseIP"
+      },
+      "tag": "direct"
+    },
+    {
+      "protocol": "blackhole",
+      "settings": {
+        "response": {
+          "type": "http"
+        }
+      },
+      "tag": "block"
+    },
+    {
+      "protocol": "dns",
+      "tag": "dns-out"
     }
-  ]
+  ],
+  "policy": {
+    "levels": {
+      "8": {
+        "connIdle": 300,
+        "downlinkOnly": 1,
+        "handshake": 4,
+        "uplinkOnly": 1
+      }
+    },
+    "system": {
+      "statsOutboundUplink": true,
+      "statsOutboundDownlink": true
+    }
+  },
+  "routing": {
+    "domainMatcher": "mph",
+    "domainStrategy": "IPIfNonMatch",
+    "rules": [
+      {
+        "inboundTag": [
+          "dns-in"
+        ],
+        "outboundTag": "dns-out",
+        "type": "field"
+      },
+      {
+        "ip": [
+          "1.1.1.1"
+        ],
+        "outboundTag": "proxy",
+        "port": "53",
+        "type": "field"
+      },
+      {
+        "ip": [
+          "223.5.5.5"
+        ],
+        "outboundTag": "direct",
+        "port": "53",
+        "type": "field"
+      },
+      {
+        "domain": [
+          "domain:googleapis.cn"
+        ],
+        "outboundTag": "proxy",
+        "type": "field"
+      },
+      {
+        "domain": [
+          "geosite:google",
+          "geosite:github",
+          "geosite:netflix",
+          "geosite:steam",
+          "geosite:telegram",
+          "geosite:tumblr",
+          "geosite:speedtest",
+          "geosite:bbc",
+          "domain:gvt1.com",
+          "domain:textnow.com",
+          "domain:twitch.tv",
+          "domain:wikileaks.org",
+          "domain:naver.com"
+        ],
+        "outboundTag": "proxy",
+        "type": "field"
+      },
+      {
+        "ip": [
+          "91.108.4.0/22",
+          "91.108.8.0/22",
+          "91.108.12.0/22",
+          "91.108.20.0/22",
+          "91.108.36.0/23",
+          "91.108.38.0/23",
+          "91.108.56.0/22",
+          "149.154.160.0/20",
+          "149.154.164.0/22",
+          "149.154.172.0/22",
+          "74.125.0.0/16",
+          "173.194.0.0/16",
+          "172.217.0.0/16",
+          "216.58.200.0/24",
+          "216.58.220.0/24",
+          "91.108.56.116",
+          "91.108.56.0/24",
+          "109.239.140.0/24",
+          "149.154.167.0/24",
+          "149.154.175.0/24"
+        ],
+        "outboundTag": "proxy",
+        "type": "field"
+      },
+      {
+        "domain": [
+          "domain:12306.com",
+          "domain:51ym.me",
+          "domain:52pojie.cn",
+          "domain:8686c.com",
+          "domain:abercrombie.com",
+          "domain:adobesc.com",
+          "domain:air-matters.com",
+          "domain:air-matters.io",
+          "domain:airtable.com",
+          "domain:akadns.net",
+          "domain:apache.org",
+          "domain:api.crisp.chat",
+          "domain:api.termius.com",
+          "domain:appshike.com",
+          "domain:appstore.com",
+          "domain:aweme.snssdk.com",
+          "domain:bababian.com",
+          "domain:battle.net",
+          "domain:beatsbydre.com",
+          "domain:bet365.com",
+          "domain:bilibili.cn",
+          "domain:ccgslb.com",
+          "domain:ccgslb.net",
+          "domain:chunbo.com",
+          "domain:chunboimg.com",
+          "domain:clashroyaleapp.com",
+          "domain:cloudsigma.com",
+          "domain:cloudxns.net",
+          "domain:cmfu.com",
+          "domain:culturedcode.com",
+          "domain:dct-cloud.com",
+          "domain:didialift.com",
+          "domain:douyutv.com",
+          "domain:duokan.com",
+          "domain:dytt8.net",
+          "domain:easou.com",
+          "domain:ecitic.net",
+          "domain:eclipse.org",
+          "domain:eudic.net",
+          "domain:ewqcxz.com",
+          "domain:fir.im",
+          "domain:frdic.com",
+          "domain:fresh-ideas.cc",
+          "domain:godic.net",
+          "domain:goodread.com",
+          "domain:haibian.com",
+          "domain:hdslb.net",
+          "domain:hollisterco.com",
+          "domain:hongxiu.com",
+          "domain:hxcdn.net",
+          "domain:images.unsplash.com",
+          "domain:img4me.com",
+          "domain:ipify.org",
+          "domain:ixdzs.com",
+          "domain:jd.hk",
+          "domain:jianshuapi.com",
+          "domain:jomodns.com",
+          "domain:jsboxbbs.com",
+          "domain:knewone.com",
+          "domain:kuaidi100.com",
+          "domain:lemicp.com",
+          "domain:letvcloud.com",
+          "domain:lizhi.io",
+          "domain:localizecdn.com",
+          "domain:lucifr.com",
+          "domain:luoo.net",
+          "domain:mai.tn",
+          "domain:maven.org",
+          "domain:miwifi.com",
+          "domain:moji.com",
+          "domain:moke.com",
+          "domain:mtalk.google.com",
+          "domain:mxhichina.com",
+          "domain:myqcloud.com",
+          "domain:myunlu.com",
+          "domain:netease.com",
+          "domain:nfoservers.com",
+          "domain:nssurge.com",
+          "domain:nuomi.com",
+          "domain:ourdvs.com",
+          "domain:overcast.fm",
+          "domain:paypal.com",
+          "domain:paypalobjects.com",
+          "domain:pgyer.com",
+          "domain:qdaily.com",
+          "domain:qdmm.com",
+          "domain:qin.io",
+          "domain:qingmang.me",
+          "domain:qingmang.mobi",
+          "domain:qqurl.com",
+          "domain:rarbg.to",
+          "domain:rrmj.tv",
+          "domain:ruguoapp.com",
+          "domain:sm.ms",
+          "domain:snwx.com",
+          "domain:soku.com",
+          "domain:startssl.com",
+          "domain:store.steampowered.com",
+          "domain:symcd.com",
+          "domain:teamviewer.com",
+          "domain:tmzvps.com",
+          "domain:trello.com",
+          "domain:trellocdn.com",
+          "domain:ttmeiju.com",
+          "domain:udache.com",
+          "domain:uxengine.net",
+          "domain:weather.bjango.com",
+          "domain:weather.com",
+          "domain:webqxs.com",
+          "domain:weico.cc",
+          "domain:wenku8.net",
+          "domain:werewolf.53site.com",
+          "domain:windowsupdate.com",
+          "domain:wkcdn.com",
+          "domain:workflowy.com",
+          "domain:xdrig.com",
+          "domain:xiaojukeji.com",
+          "domain:xiaomi.net",
+          "domain:xiaomicp.com",
+          "domain:ximalaya.com",
+          "domain:xitek.com",
+          "domain:xmcdn.com",
+          "domain:xslb.net",
+          "domain:xteko.com",
+          "domain:yach.me",
+          "domain:yixia.com",
+          "domain:yunjiasu-cdn.net",
+          "domain:zealer.com",
+          "domain:zgslb.net",
+          "domain:zimuzu.tv",
+          "domain:zmz002.com",
+          "domain:samsungdm.com"
+        ],
+        "outboundTag": "direct",
+        "type": "field"
+      },
+      {
+        "domain": [
+          "geosite:category-ads-all"
+        ],
+        "outboundTag": "block",
+        "type": "field"
+      },
+      {
+        "ip": [
+          "geoip:private"
+        ],
+        "outboundTag": "direct",
+        "type": "field"
+      },
+      {
+        "ip": [
+          "geoip:cn"
+        ],
+        "outboundTag": "direct",
+        "type": "field"
+      },
+      {
+        "domain": [
+          "geosite:cn"
+        ],
+        "outboundTag": "direct",
+        "type": "field"
+      }
+    ]
+  },
+  "stats": {}
 }

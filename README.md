@@ -3,7 +3,7 @@
 把全部文件下载到你的手机本地路径，例如 /sdcard/Download/xray 内。
 然后修改 config.json 配置文件 outbound 区域 对应自己的vps信息。
 
-用termux 或者 adb shell  切换到 root用户后 运行 start_xray_and_iptables.sh 脚本即可。
+用termux 或者 adb shell  切换到 root用户后 运行 start 脚本即可。
 
 执行过程只需要几秒钟。
 
@@ -11,7 +11,7 @@ PS：
 
 1. 重启手机后会恢复最初状态，需要从新运行 start脚本。
 
-2. 在不重启手机的前提下想要恢复原状，运行 clean开头的 那个脚本即可。
+2. 在不重启手机的前提下想要恢复原状，运行 stop 脚本即可。
 
 3. 如果自己修改了配置文件，再次执行 start 那个脚本即可更新配置。
 
@@ -32,7 +32,7 @@ PS：
       }
    }, 
 ```
-![选择导出完整配置]
-(https://github.com/aresbigboy/download/blob/master/Screenshot_20220319-214300-787~2.png)
 
-![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
+![选择导出完整配置](https://github.com/aresbigboy/download/blob/master/Screenshot_20220319-214300-787~2.png)
+
+![添加箭头之间内容](https://github.com/aresbigboy/download/blob/master/Screenshot_20220319-214154-552~2.png)

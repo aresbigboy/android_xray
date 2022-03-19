@@ -7,10 +7,6 @@ if [ ! -f ${FILES_PATH}/${CONFIG_FILE} ];then
     exit
 fi
 
-if [ ! -f ${FILES_PATH}/return_ip-cn.sh ];then
-    echo "${FILES_PATH}/return_ip-cn.sh not exist. WARNING!!!...."
-fi
-
 . ${FILES_PATH}/clean_xray_and_iptables.sh
 
 ############################################

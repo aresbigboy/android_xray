@@ -345,7 +345,7 @@
       },
       "sniffing": {
         "enabled": true,
-        "destOverride": ["http", "tls","fakedns"]
+        "destOverride": ["http","tls","fakedns"]
       }
    },
     {

@@ -40,14 +40,24 @@ iptables -w 3 -t nat -N XRAY
 # 其余流量转发到 61099 端口（即 V2Ray）
 iptables -w 3 -t nat -A XRAY -p tcp -j REDIRECT --to-ports 61099
 
-# 对局域网其他设备进行透明代理
-iptables -w 3 -t nat -A PREROUTING -p tcp -m multiport --dports 80,443,8080 -j XRAY
-
 # 设置root权限运行的进程出方向直连（避免xray进程本机出方向流量回环）
 iptables -w 3 -t nat -I OUTPUT -p tcp -m owner --uid-owner 0 -j RETURN
 
-# 对本机进行透明代理
+    ############################
+# 对局域网其他设备进行透明代理 (仅转发80,443,8080端口)
+iptables -w 3 -t nat -A PREROUTING -p tcp -m multiport --dports 80,443,8080 -j XRAY
+
+# 对本机进行透明代理 (仅转发80,443,8080端口)
 iptables -w 3 -t nat -A OUTPUT -p tcp -m multiport --dports 80,443,8080 -j XRAY
+
+
+# 对局域网其他设备进行透明代理 (全部端口)
+#iptables -w 3 -t nat -A PREROUTING -p tcp -j XRAY
+
+# 对本机进行透明代理 (全部端口)
+#iptables -w 3 -t nat -A OUTPUT -p tcp -j XRAY
+    ############################
+
 
 #############################################
 

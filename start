@@ -13,7 +13,7 @@ echo "prepareing XRAY package to ${DIR_PATH}...."
 mkdir -p ${DIR_PATH}
 cp -arf ${FILES_PATH}/xray-linux-arm64/* ${DIR_PATH}/
 if [[ $? -ne 0 ]];then
-    echo "prepare XRAY package file. xray-linux-arm64.zip file or xray-linux-arm64 dir not exist. now quit...."
+    echo "prepare XRAY package file. xray-linux-arm64 dir not exist. now quit...."
     exit
 fi
 chmod -R +x ${DIR_PATH}

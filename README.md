@@ -1,5 +1,8 @@
-# xray_running_in_android_root
+# 运行脚本后，xray进程跑在Android系统底层（不借助虚拟机，不借助任何框架，纯粹跑在Android底层）, 手机流量即可像挂客户端一样分流科学上网。
+**节省内存，节省电量，并且手机分享的热点亦可科学上网**
 
+
+- 使用方法
 把全部文件下载到你的手机本地路径，例如 /sdcard/Download/xray 内。
 然后修改 config.json 配置文件 outbound 区域 对应自己的vps信息。
 

@@ -17,7 +17,7 @@ su -c "sh start"
 
 2. 在不重启手机的前提下想要恢复原状，运行 stop 脚本即可。
 ```
-su -c "sh start"
+su -c "sh stop"
 ```
 
 

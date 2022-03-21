@@ -7,7 +7,7 @@ if [ ! -f ${FILES_PATH}/${CONFIG_FILE} ];then
     exit
 fi
 
-. ${FILES_PATH}/stop
+. ${FILES_PATH}/stop 2> /dev/null
 
 echo "prepareing XRAY package to ${DIR_PATH}...."
 mkdir -p ${DIR_PATH}

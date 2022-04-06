@@ -6,6 +6,14 @@ if [ -n "${PID}" ];then
     sleep 2
 fi
 
+PID=$(pgrep gost)
+
+if [ -n "${PID}" ];then
+    echo "XRAY is running, then kill it...."
+    kill -9 ${PID}
+    sleep 2
+fi
+
 if [[ $(iptables-save | grep XRAY | wc -l) -ne 0 ]];then
     echo "found iptables for XRAY. now clean rules...."
     iptables-save | grep XRAY | grep -E "OUTPUT|PREROUTING" | sed 's/-A/iptables -t nat -D/g' | sh

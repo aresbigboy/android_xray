@@ -18,7 +18,8 @@ if [[ $? -ne 0 ]];then
 fi
 chmod -R +x ${DIR_PATH}
 
-echo "RUN XRAY...."
+echo "RUN XRAY and GOST ...."
+nohup ${DIR_PATH}/gost -L=udp://127.0.0.1:53/208.67.222.222:443 > /dev/null 2>&1 &
 nohup ${DIR_PATH}/xray -config=${FILES_PATH}/${CONFIG_FILE} -format=json > /dev/null 2>&1 &
 sleep 2
 netstat -lnpt | grep "61099 "
